@@ -9,7 +9,7 @@ import SidebarBudgetAccounts from '../molecules/SidebarBudgetAccounts';
 
 function Sidebar() {
   return (
-    <ul className="h-screen w-4/12 border-r border-border p-2">
+    <ul className="h-screen w-96 border-r border-border p-2">
       <Menu />
       <NavEntry
         routeName="/"
